@@ -1,0 +1,111 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e60012; /* 任天堂レッド */
+  color: #ffffff;
+}
+
+header {
+  background-color: #cc0010;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+  background-color: white;
+  color: #333;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  border-left: 8px solid #e60012;
+  padding-left: 1rem;
+  color: #e60012;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #cc0010;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #e60012;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background: #cc0010;
+  color: white;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.video {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  header, .hero, footer {
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}
